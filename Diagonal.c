@@ -2,7 +2,9 @@
 
 int main(int argc, char const *argv[])
 {
+    //Declaración de la matriz
     int Matrix[3][3];
+    //Ingreso de datos para la matriz
     for (int i = 0; i < 3; i++)
     {
         for (int j = 0; j < 3; j++)
@@ -12,7 +14,7 @@ int main(int argc, char const *argv[])
         }
     }
     
-
+    //Impresión de la matriz
     for (int i = 0; i < 3; i++)
     {
         for (int j = 0; j < 3; j++)
@@ -20,9 +22,10 @@ int main(int argc, char const *argv[])
             printf("%d\t", Matrix[i][j]);
         }
         printf("\n");
-        printf("\n");
     }
+     printf("\n");
      
+     //Impresión de la diagonal
      for (int i = 0; i < 3; i++)
     {
         for (int j = 0; j < 3; j++)
